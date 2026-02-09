@@ -1,0 +1,53 @@
+Paka Mahesh Kumar
++1 (314)-325-2660 — pakamaheshkumar22@gmail.com
+
+PROFESSIONAL SUMMARY
+Highly skilled Java Full-Stack Developer with 4+ years of hands-on experience building scalable, high-performance applications using Java, Spring Boot, Microservices, REST APIs, and modern JavaScript frameworks (React/Angular). Proficient in designing distributed systems, implementing secure API integrations, and optimizing backend performance through efficient data structures, multithreading, and caching strategies.
+Experienced in full SDLC, CI/CD automation, containerization with Docker/Kubernetes, and cloud deployments across AWS/Azure. Strong background in relational and NoSQL databases, messaging systems, and test automation using JUnit, Mockito, and Selenium.
+Known for writing clean, maintainable code, solving complex technical problems, and collaborating closely with engineering teams to deliver reliable, production-ready solutions.
+
+TECHNICAL SKILLS
+•Programming Languages: Java (8/11/17), JavaScript, TypeScript, SQL, HTML5, CSS3, Python
+•Backend Development: Spring Boot, Spring MVC, Spring Security, Spring Data JPA, Microservices Architecture, REST API Development, Maven, Gradle, Java Concurrency, Streams API, Collections Framework
+•Frontend Development: React.js / Angular, Redux / Nginx, Bootstrap, Material UI, Responsive UI, JavaScript ES6+, TypeScript, Fetch API
+•Cloud Technologies: AWS (EC2, S3, Lambda, API Gateway, RDS, CloudWatch), Azure (App Services, Functions, Azure SQL), Docker-based cloud deployments
+•Databases: MySQL, PostgreSQL, Oracle, MongoDB, Redis, Query optimization, indexing, stored procedures
+•DevOps & CI/CD: Jenkins, GitHub Actions, GitLab CI/CD, Docker, Kubernetes (EKS/AKS), Artifactory, SonarQube, Build & release automation, environment setup
+•Testing & QA: JUnit, Mockito, TDD & unit testing
+•Messaging & Integration: Apache Kafka, RabbitMQ, asynchronous messaging, Swagger
+•Version Control & Collaboration: Git, GitHub, GitLab, Bitbucket, Git Flow, Agile/Scrum methodology
+•Other Tools: IDE, VS Code, Eclipse, Linux/Unix, Shell scripting, Servlets, Splunk, ELK Stack, Grafana, Prometheus, Redis
+
+CERTIFICATIONS
+•AWS Certified Cloud Practitioner (CLF-C02)
+
+EXPERIENCE
+Adobe | Software Engineer | San Jose, CA	May 2025 – Present
+•DELIVERED Java full stack functionality using JAVA, J2EE, SPRING BOOT, and REACT to support AI-ENABLED PRODUCT FEATURES within a production web platform.
+•DESIGNED and maintained secure RESTFUL APIS using SPRING MVC, SPRING SECURITY, and SPRING DATA JPA, improving reliability and reducing request failures.
+•INTEGRATED AI-POWERED API responses into backend services to AUTOMATE CONTENT GENERATION, reducing manual effort for operational teams by APPROXIMATELY 60%.
+•IMPROVED BACKEND PERFORMANCE by applying REDIS CACHING on read-heavy endpoints, minimizing database calls and ensuring consistent response times.
+•IMPLEMENTED ASYNCHRONOUS PROCESSING using APACHE KAFKA and RABBITMQ to handle long-running background tasks without impacting application stability.
+•COLLABORATED with frontend engineers to align REACT UI behavior with BACKEND SERVICE CONTRACTS, resolving integration issues and reducing defects.
+•CONTAINERIZED backend services using DOCKER and deployed on AWS EC2 with RDS through CI/CD PIPELINES, reducing manual intervention by ABOUT 40%.
+•PARTNERED with QA and product teams to validate requirements and troubleshoot production issues within an AGILE DEVELOPMENT environment.
+
+K Tree Computer Solutions PVT LTD | Junior Software Engineer | Hyderabad, IND
+Mar 2022 – Apr 2024
+•ARCHITECTED and developed SCALABLE CRUD OPERATIONS using REACT.JS and AWS APPSYNC, streamlining content management and improving data interaction efficiency.
+•OPTIMIZED DATA FETCHING by integrating GRAPHQL (Queries, Mutations, Subscriptions) into React components, reducing network overhead and IMPROVING RESPONSIVENESS BY 30%.
+•BUILT HIGH-PERFORMANCE UI using REACT HOOKS, MEMOIZATION, and LAZY LOADING, ensuring a seamless experience that CONTRIBUTED TO A 20% INCREASE IN USER ENGAGEMENT.
+•STRENGTHENED APP SECURITY and scalability by integrating AWS COGNITO (Authentication), DYNAMODB, and S3, implementing ROUTE GUARDS and robust form validations.
+•AUTOMATED BACKEND WORKFLOWS and API payload validations using PYTHON SCRIPTS, significantly reducing manual testing effort and improving early defect detection.
+•STREAMLINED DEBUGGING and monitoring by integrating PYTHON UTILITIES with AWS LAMBDA and APPSYNC LOGS to track real-time API activity.
+•COLLABORATED WITH CROSS-FUNCTIONAL TEAMS in an AGILE environment to refine product requirements, ensuring technical delivery aligned with CLIENT BUSINESS GOALS.
+•IMPROVED MAINTAINABILITY across the platform by building a library of REUSABLE UI COMPONENTS and modular state-handling logic.
+
+Couth Infotech PVT | Junior Software Engineer | Hyderabad, IND	May 2021 – Mar 2022
+Developed and maintained scalable Java/J2EE backend applications using Servlets and Eclipse IDE to support internal business systems and operational workflows.
+Implemented dynamic user interfaces and server-side logic using JSP, JSTL, and JavaScript to process user requests and enhance front-end responsiveness.
+Optimized data access layers using Hibernate ORM and SQL/DB2, streamlining stored procedures and reducing execution time for critical operational reports.
+Designed and consumed RESTful APIs and used JAXB for XML data binding to ensure seamless communication between internal modules and external services.
+Improved code reliability and reduced technical debt by writing JUnit tests, implementing Log4j logging, and performing continuous refactoring.
+Managed build and deployment processes using Maven and Apache ANT, while maintaining version control and collaborative workflows with Git.
+Collaborated with cross-functional Agile teams via JIRA to fix defects and deliver incremental feature enhancements aligned with business requirements.
