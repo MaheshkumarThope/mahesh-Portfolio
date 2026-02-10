@@ -18,12 +18,16 @@
 
 
 	var fullHeight = function() {
-
-		$('.js-fullheight').css('height', $(window).height());
-		$(window).resize(function(){
-			$('.js-fullheight').css('height', $(window).height());
-		});
-
+		var setFullHeight = function() {
+			// On desktop, force full-height hero; on mobile, let content define height
+			if ($(window).width() > 768) {
+				$('.js-fullheight').css('height', $(window).height());
+			} else {
+				$('.js-fullheight').css('height', 'auto');
+			}
+		};
+		setFullHeight();
+		$(window).resize(setFullHeight);
 	};
 	fullHeight();
 
