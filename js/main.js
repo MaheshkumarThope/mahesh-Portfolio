@@ -7,14 +7,17 @@
 
 	"use strict";
 
-	$(window).stellar({
-    responsive: true,
-    parallaxBackgrounds: true,
-    parallaxElements: true,
-    horizontalScrolling: false,
-    hideDistantElements: false,
-    scrollProperty: 'scroll'
-  });
+	// Enable parallax only on larger screens; disable on mobile to avoid scroll issues
+	if ($(window).width() > 768) {
+		$(window).stellar({
+	    responsive: true,
+	    parallaxBackgrounds: true,
+	    parallaxElements: true,
+	    horizontalScrolling: false,
+	    hideDistantElements: false,
+	    scrollProperty: 'scroll'
+	  });
+	}
 
 
 	var fullHeight = function() {
@@ -41,8 +44,10 @@
 	};
 	loader();
 
-	// Scrollax
-   $.Scrollax();
+	// Scrollax (disabled on mobile to prevent scroll locking)
+  if ($(window).width() > 768) {
+    $.Scrollax();
+  }
 
 
 

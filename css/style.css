@@ -8140,10 +8140,23 @@ body {
   font-weight: 400;
   color: #999999; }
   body.menu-show {
+    /* Keep page scrollable even when mobile menu is open */
     overflow: hidden;
-    position: fixed;
-    height: 100%;
-    width: 100%; }
+  }
+
+/* Mobile safety overrides to ensure scrolling works on small devices (e.g. iPhone) */
+@media (max-width: 768px) {
+  html,
+  body {
+    height: auto !important;
+    overflow-y: auto !important;
+    position: static !important;
+  }
+  .hero-wrap,
+  .js-fullheight {
+    height: auto !important;
+  }
+}
 
 a {
   -webkit-transition: .3s all ease;
