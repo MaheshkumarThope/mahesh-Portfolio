@@ -74,19 +74,23 @@
 
 	var onePageClick = function() {
 
+		function closeMobileMenu() {
+			$('#ftco-nav').collapse('hide');
+			$('.js-fh5co-nav-toggle').removeClass('active').addClass('collapsed').attr('aria-expanded', 'false');
+		}
 
 		$(document).on('click', '#ftco-nav a[href^="#"]', function (event) {
 	    event.preventDefault();
-
 	    var href = $.attr(this, 'href');
-
+	    closeMobileMenu();
 	    $('html, body').animate({
-	        scrollTop: $($.attr(this, 'href')).offset().top - 70
-	    }, 500, function() {
-	    	// window.location.hash = href;
-	    });
+	        scrollTop: $(href).offset().top - 70
+	    }, 500);
 		});
 
+		$(document).on('click', '#ftco-nav a', function() {
+			closeMobileMenu();
+		});
 	};
 
 	onePageClick();

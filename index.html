@@ -21,6 +21,63 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      /* Additional Mobile Optimizations */
+      @media (max-width: 768px) {
+        /* Ensure touch-friendly tap targets */
+        a, button {
+          -webkit-tap-highlight-color: rgba(255, 189, 57, 0.3);
+        }
+        
+        /* Smooth scrolling */
+        html {
+          scroll-behavior: smooth;
+        }
+        
+        /* Better spacing for mobile sections */
+        section {
+          scroll-margin-top: 70px;
+        }
+        
+        /* Hero text improvements */
+        .hero .text p {
+          margin-top: 20px;
+        }
+        
+        /* Services grid - stack on mobile */
+        .services-1 {
+          width: 100%;
+          margin-left: 0;
+          margin-right: 0;
+        }
+        
+        /* Skills section - full width bars */
+        .progress {
+          height: 25px;
+        }
+        
+        /* Contact form improvements */
+        .contact-form input,
+        .contact-form textarea {
+          width: 100%;
+          box-sizing: border-box;
+        }
+      }
+      
+      @media (max-width: 480px) {
+        /* Extra small devices */
+        .hero h1 {
+          font-size: 1.5rem !important;
+        }
+        .hero h2 {
+          font-size: 1.1rem !important;
+        }
+        .btn {
+          padding: 10px 20px !important;
+          font-size: 0.85rem !important;
+        }
+      }
+    </style>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	  
