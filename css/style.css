@@ -8399,6 +8399,37 @@ body {
     min-height: 0 !important;
     height: auto !important;
   }
+  /* Hero on mobile: force visible and scrollable (Owl stays display:none until .owl-loaded; we never init on mobile) */
+  .hero .home-slider,
+  .hero .owl-carousel.home-slider {
+    display: block !important;
+    height: auto !important;
+    min-height: 0 !important;
+    touch-action: pan-y !important;
+    overflow: visible !important;
+  }
+  .hero .home-slider .slider-item {
+    display: none !important;
+    height: auto !important;
+    touch-action: pan-y !important;
+  }
+  .hero .home-slider .slider-item:first-child {
+    display: block !important;
+    height: auto !important;
+    min-height: 55vh !important;
+    touch-action: pan-y !important;
+  }
+  .hero .home-slider .slider-item:first-child .slider-text {
+    height: auto !important;
+    min-height: 55vh !important;
+    touch-action: pan-y !important;
+  }
+  /* If Owl did init (e.g. before resize), still allow vertical scroll inside it */
+  .owl-carousel.home-slider .owl-stage-outer,
+  .owl-carousel.home-slider .owl-stage,
+  .owl-carousel.home-slider .owl-item {
+    touch-action: pan-y !important;
+  }
 }
 
 /* Production: auto-hide loader on touch devices after 2.5s (works without JS) */
