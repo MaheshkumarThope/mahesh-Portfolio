@@ -8150,8 +8150,11 @@ body {
   body {
     height: auto !important;
     overflow-y: auto !important;
+    overflow-x: hidden !important;
     position: static !important;
-    -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch !important;
+    touch-action: manipulation !important;
+    min-height: 100% !important;
   }
   .hero-wrap,
   .js-fullheight {
@@ -8374,6 +8377,41 @@ body {
     .hero .one-forth {
       width: 100% !important;
     }
+  }
+}
+
+/* Production: real mobile/touch devices - loader must never block touch or scroll */
+@media (max-width: 768px), (hover: none) and (pointer: coarse) {
+  #ftco-loader {
+    pointer-events: none !important;
+  }
+  html, body {
+    -webkit-overflow-scrolling: touch !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    touch-action: manipulation !important;
+    min-height: 100% !important;
+    height: auto !important;
+    position: relative !important;
+  }
+  .hero-wrap,
+  .js-fullheight {
+    min-height: 0 !important;
+    height: auto !important;
+  }
+}
+
+/* Production: auto-hide loader on touch devices after 2.5s (works without JS) */
+@media (max-width: 768px), (hover: none) and (pointer: coarse) {
+  #ftco-loader.show {
+    animation: mobile-loader-hide 0.3s ease 2.5s forwards;
+  }
+}
+@keyframes mobile-loader-hide {
+  to {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
   }
 }
 

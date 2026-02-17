@@ -205,6 +205,27 @@
     </style>
   </head>
   <body>
+  <script>
+    (function() {
+      var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || (navigator.maxTouchPoints && navigator.maxTouchPoints > 0);
+      if (isMobile) {
+        document.documentElement.style.webkitOverflowScrolling = 'touch';
+        document.documentElement.style.overflowY = 'auto';
+        document.documentElement.style.height = 'auto';
+        document.body.style.overflowY = 'auto';
+        document.body.style.height = 'auto';
+        document.body.style.position = 'relative';
+        document.body.style.minHeight = '100%';
+        setTimeout(function() {
+          var loader = document.getElementById('ftco-loader');
+          if (loader) {
+            loader.classList.remove('show');
+            loader.style.pointerEvents = 'none';
+          }
+        }, 2500);
+      }
+    })();
+  </script>
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
       <div class="container">
         <a class="navbar-brand" href="index.html">Paka Mahesh Kumar</a>
